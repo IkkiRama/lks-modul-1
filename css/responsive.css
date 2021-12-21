@@ -1,0 +1,673 @@
+@media(min-width: 1500px) {
+
+    header,
+    section,
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 1500px;
+    }
+
+    .containerKerjasama .container {
+        border-top-left-radius: 100px;
+    }
+
+    .modalContainer .modal {
+        max-width: 1500px;
+    }
+
+    .modal .modal-body {
+        height: 100%;
+    }
+
+    .modal .modal-body .img {
+        height: 500px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .hero .container .caption h1 {
+        font-size: 2.8rem;
+        margin-bottom: 30px;
+        line-height: 50px;
+    }
+
+    .hero .container .caption h1 span {
+        color: #ffa011;
+    }
+
+    .hero .container .caption p {
+        font-size: 1.1rem;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    header,
+    section {
+        padding: 0 50px;
+    }
+
+    .hero .container .caption h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .hero .container .caption p {
+        font-size: 1rem;
+    }
+
+    .hero .container .hero-img {
+        height: 70%;
+    }
+
+    .hero .container .hero-img .thumbnail {
+        height: 100%;
+    }
+
+    .hero .container .caption a {
+        padding: .9rem 1.8rem;
+    }
+
+    .containerKerjasama .container .caption {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .modal .modal-body .caption,
+    .modal .modal-body .img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .modal .modal-body .caption {
+        height: 250px;
+    }
+
+    .modal .modal-body .img {
+        height: 450px;
+    }
+
+    .modal .modal-body .containerFotoTerkait {
+        padding: 0 20px;
+    }
+
+    .modal .modal-body .containerFotoTerkait .fotoTerkait img {
+        width: calc(90%/2);
+        height: 200px;
+    }
+}
+
+@media(max-width:900px) {
+    .kontak .container {
+        flex-wrap: wrap;
+    }
+
+    .kontak .container .caption,
+    .kontak .container img {
+        width: 100%;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 50px;
+    }
+
+    .kontak .container .caption {
+        margin-left: 0;
+    }
+
+    .kontak .container .caption h1 {
+        text-align: center;
+    }
+
+
+    .kontak .container {
+        flex-wrap: wrap;
+    }
+
+    .kontak .container .caption,
+    .kontak .container img {
+        width: 100%;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 50px;
+    }
+
+    .kontak .container .caption {
+        margin-left: 0;
+    }
+
+    .kontak .container .caption h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:800px) {
+
+    header,
+    section,
+    footer {
+        padding: 0 25px;
+    }
+
+    .hero {
+        height: 100%;
+    }
+
+    .hero .container {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+
+    .hero .container .hero-img {
+        width: 100%;
+        height: 250px;
+        margin: 20px 0;
+    }
+
+    .hero .container .hero-img .thumbnail {
+        width: 70%;
+        height: 100%;
+    }
+
+    .hero .container .caption {
+        width: 100%;
+    }
+
+    .hero .container .caption h1 {
+        font-size: 2.2rem;
+        line-height: 45px;
+    }
+
+    .hero .container .caption p {
+        font-size: 1.2rem;
+        line-height: 30px;
+        margin-bottom: 60px;
+    }
+
+    .hero .container .caption a {
+        padding: .9rem 1.5rem;
+    }
+
+    .portfolio img {
+        width: calc(90%/2);
+    }
+
+    .containerClient {
+        border-top-left-radius: 0;
+    }
+
+    .containerClient .clientTitle {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .containerClient .clientTitle h2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .containerClient .clientTitle p {
+        width: 100%;
+    }
+
+    .client .perClient {
+        width: calc(100%/3);
+        height: 100px;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .containerKerjasama {
+        padding: 0 25px;
+        background-color: #221E41;
+    }
+
+    .containerKerjasama .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 50px 0;
+        border-top-right-radius: 0;
+    }
+
+    .containerKerjasama .container .caption {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+
+    .footer .container {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    footer {
+        background-color: #221E41;
+    }
+
+    footer .container {
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 0;
+        padding-left: 0;
+        justify-content: center;
+        text-align: center;
+        background-color: transparent;
+    }
+
+    .heroPortfolio {
+        height: 100vh;
+    }
+
+    .modal {
+        width: 90%;
+    }
+}
+
+
+
+
+@media(max-width:700px) {
+    .modal .modal-body .img {
+        height: 400px;
+    }
+}
+
+@media(max-width:650px) {
+    #scroll-top img {
+        width: 3.2rem;
+    }
+
+
+    #scroll-top.show {
+        transform: translateY(-50px);
+    }
+
+
+    @keyframes float {
+
+        50% {
+            transform: translateY(-1.5rem);
+        }
+    }
+
+    .navbarMobile {
+        display: flex;
+    }
+
+    header .logo {
+        font-size: 1.5rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .title p {
+        font-size: 1.2rem;
+    }
+
+    .title h2 {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .client .perClient {
+        width: calc(100%/2);
+        height: 80px;
+    }
+
+    footer {
+        height: 10vh;
+    }
+
+
+}
+
+
+@media(max-width:600px) {
+    .footer .box {
+        margin: 1rem 0;
+    }
+
+    .hero .container .caption h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 0;
+    }
+
+    .modal {
+        width: 100%;
+    }
+
+    .modal .modal-body .img {
+        height: 300px;
+    }
+
+    .modal .modal-body .containerFotoTerkait .fotoTerkait img {
+        width: 100%;
+        height: 250px;
+        margin: 10px 0;
+    }
+
+}
+
+@media(max-width:500px) {
+
+    header,
+    section,
+    footer {
+        padding: 0 15px;
+    }
+
+    .hero .container .hero-img .thumbnail {
+        width: 90%;
+    }
+
+    .hero .container .caption p {
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+
+    .title p {
+        font-size: 1rem;
+    }
+
+    .title h2 {
+        font-size: 1.5rem;
+        line-height: 35px;
+    }
+
+    .portfolio img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .containerClient .clientTitle p {
+        font-size: 1.2rem;
+    }
+
+    .client .perClient {
+        align-items: start;
+        justify-content: start;
+    }
+
+    .client .perClient img {
+        height: 25px;
+    }
+
+    .containerKerjasama .container .caption h2 {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .containerKerjasama .container .caption p {
+        font-size: 1.1rem;
+    }
+
+    footer .container {
+        font-size: .8rem;
+    }
+
+    .kontak .container img {
+        height: 20rem;
+        margin-bottom: 10px;
+    }
+
+    .heroPortfolio .container h1 {
+        font-size: 2rem;
+    }
+
+    .heroPortfolio .container p {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    header .logo {
+        font-size: 1.3rem;
+    }
+
+
+    .navbarMobile .perNavbarMobile h3 {
+        font-size: .9rem;
+    }
+
+    .hero {
+        height: 100vh;
+        padding-top: 0;
+        background: var(--biru-cerah);
+    }
+
+    .hero .container .caption h1 {
+        color: var(--putih);
+        font-size: 1.7rem;
+        line-height: 35px;
+    }
+
+    .hero .container .caption a {
+        background-color: var(--putih);
+        color: var(--biru-cerah);
+    }
+
+    .hero .container .caption p {
+        color: var(--putih);
+        font-size: 1rem;
+    }
+
+    .hero .container .hero-img {
+        display: none;
+    }
+
+    .title p {
+        font-size: 1rem;
+    }
+
+    .title h2 {
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+
+    .footer .box h2 {
+        font-size: 1.7rem;
+    }
+
+    .footer .box .sosmed .perSosmed {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        font-size: 1.2rem;
+        margin: 10px;
+        border-radius: 50%;
+        background: rgb(255, 160, 17);
+    }
+
+    .kontak .container img {
+        height: 15rem;
+    }
+
+    .kontak .container .caption h1 {
+        font-size: 1.9rem;
+    }
+
+    .kontak .container .caption textarea,
+    .kontak .container .caption input {
+        font-size: .9rem;
+    }
+
+    .modal .modal-title {
+        padding: 10px;
+    }
+
+    .modal .modal-body .caption,
+    .modal .modal-body .containerFotoTerkait,
+    .modal .modal-body .img {
+        padding: 20px 10px;
+    }
+
+    .modal .modal-body .img {
+        height: 250px;
+    }
+
+    .modal .modal-body .containerFotoTerkait .fotoTerkait img {
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    #scroll-top {
+        right: 0;
+    }
+
+
+    #scroll-top.show {
+        transform: translateY(-30px);
+    }
+
+    #scroll-top img {
+        width: 2.7rem;
+    }
+
+    .hero .caption h1 {
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+
+    .portfolio img {
+        height: 200px;
+    }
+
+    .client .perClient {
+        width: 100%;
+    }
+
+    footer .container {
+        font-size: .8rem;
+    }
+
+
+    .heroPortfolio .container h1 {
+        font-size: 1.7rem;
+    }
+
+    .heroPortfolio .container p {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    .navbarMobile {
+        padding-top: 5px;
+    }
+
+    .navbarMobile .perNavbarMobile h3 {
+        font-size: .8rem;
+    }
+
+    .hero {
+        padding-top: 0;
+    }
+
+    .hero .hero-img {
+        display: none;
+    }
+
+    .title h2 {
+        font-size: 1.1rem;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+
+    .footer .box p {
+        font-size: .8rem;
+        line-height: 20px;
+    }
+
+    .footer .box .sosmed {
+        flex-wrap: wrap;
+    }
+
+    .footer .box .sosmed .perSosmed {
+        margin: 10px 5px;
+    }
+
+
+    .kontak .container img {
+        height: 10rem;
+    }
+
+    .kontak .container .caption h1 {
+        font-size: 1.6rem;
+    }
+
+    .kontak .container .caption label {
+        font-size: .95rem;
+    }
+
+    .kontak .container .caption textarea,
+    .kontak .container .caption input {
+        padding-left: 10px;
+        font-size: .8rem;
+    }
+
+    .kontak .container .caption button {
+        width: 100%;
+    }
+
+    .modalContainer {
+        padding: 10px;
+    }
+
+    .modal .modal-title h2 {
+        font-size: 1.2rem;
+    }
+
+    .modal .modal-title .icon {
+        font-size: 1rem;
+    }
+
+    .modal .modal-body .img {
+        height: 200px;
+    }
+
+    .modal .modal-body .caption {
+        height: 200px;
+    }
+
+    .modal .modal-body .caption p {
+        font-size: .9rem;
+    }
+
+    .modal .modal-body .caption .keterangan .perKeterangan .icon {
+        font-size: .9rem;
+    }
+
+    .modal .modal-body .caption h3,
+    .modal .modal-body .containerFotoTerkait h3 {
+        font-size: 1.3rem;
+    }
+
+    .modal .modal-body .containerFotoTerkait .fotoTerkait img {
+        height: 150px;
+    }
+}
